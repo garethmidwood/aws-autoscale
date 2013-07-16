@@ -1,4 +1,7 @@
 <?php
+/*
+ *	Set up your config below
+ */
 
 // define directory separator shorthand
 define('DS',				DIRECTORY_SEPARATOR);
