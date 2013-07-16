@@ -1,0 +1,126 @@
+html,
+body {
+	font-size: 1em;
+	line-height: 1.6em;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+}
+
+header,
+div#body {
+	width: 85%;
+	margin: 0 auto;
+	padding: 15px;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+}
+
+div#body {
+	border-width: 0 1px 1px 1px;
+}
+
+fieldset {
+	border: 1px solid black;
+	padding: 15px;
+	margin: 0;
+	position: relative;
+}
+
+fieldset ul {
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+	margin: 0;
+}
+
+fieldset ul li {
+	padding: 0.7em 0;
+}
+
+fieldset ul li.code div {
+	padding: 5px;
+	background-color: #BBB;
+	border: 1px solid green;
+}
+
+fieldset ul li.code div pre {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+fieldset label {
+	display: block;
+	margin: 0;
+}
+
+fieldset label span {
+	font-size: 0.7em;
+	display: block;
+}
+
+fieldset input,
+fieldset select,
+fieldset textarea {
+	margin: 0;
+}
+
+fieldset label input {
+	display: inline-block;
+}
+
+fieldset button {
+	width: 100%;
+	margin: 20px 0 0 0;
+	padding: 6px 0;
+	background-color: #EEE;
+	border: 1px solid black;
+	position: relative;
+	top: 0;
+}
+
+fieldset button:active {
+	top: 1px;
+}
+
+span.error {
+	color: red;
+	font-weight: bold;
+	display: block;
+}
+
+span.positive {
+	color: green;
+	font-weight: bold;
+	display: block;
+}
+
+span.load {
+	background-image: url(/images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 2px;
+	min-height: 19px;
+	padding-left: 25px;
+}
+
+div#code-area {
+	position: relative;
+}
+
+div#code-area > span.load {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	text-align: center;
+	opacity: 0.8;
+	padding-top: 200px;
+	background-position: center 180px;
+}
