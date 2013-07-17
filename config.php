@@ -1,5 +1,8 @@
 <?php
-
+/*
+ *	Edit this file to use your own settings
+ */
+ 
 // define the keys for reading from EC2
 define('AWS_IAM_EC2_READ_KEY',			'-ive got the key-');
 define('AWS_IAM_EC2_READ_SECRET',		'-youve got the secret-');
