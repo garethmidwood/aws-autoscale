@@ -7,7 +7,7 @@
  *		http://docs.amazonwebservices.com/AutoScaling/latest/DeveloperGuide/astools.html#verify-install
  *		
  *
- *	@Author:	Gareth Midwood
+ *	@Author:	Gareth Midwood.
  *	@Date:		06/11/12
  */
 
